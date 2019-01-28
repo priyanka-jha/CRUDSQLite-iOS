@@ -2,10 +2,10 @@
 //  ViewController.swift
 //  ListViewDemo
 //
-//  Created by Megavision Technologies on 02/08/18.
-//  Copyright © 2018 Megavision Technologies. All rights reserved.
+//  Created by Priyanka on 28/01/19.
+//  Copyright © 2019 Priyanka. All rights reserved.
 
-                //***** Showing data in Listview from Database,Toast,Alert Dialog *****//
+                //***** Showing data in Listview from Database,Alert Dialog *****//
 
 import UIKit
 
@@ -57,19 +57,6 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
         // show the alert
         self.present(alert, animated: true, completion: nil)
         
-//        let cell = sender.tag
-//        var l = Table_Info()
-//        l = GetAllDataInfo.object(at: sender.tag) as! Table_Info
-//
-//        _ = DBModel.getInstance().deleteData(RecordId: l.Id)
-//
-//        ToastView.shared.long(self.view, txt_msg: "Data deleted successfully!!")
-//
-//        GetAllDataInfo = DBModel.getInstance().GetAllData()
-//        tblTableView.reloadData()
-        
-        
-        
         
     }
     
@@ -104,9 +91,6 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
         cell.labelEmail.text! = l.Email
         
         return cell
-        
-        
-        
         
         
     }

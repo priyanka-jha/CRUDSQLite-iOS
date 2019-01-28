@@ -2,8 +2,8 @@
 //  InsertViewController.swift
 //  ListViewDemo
 //
-//  Created by Megavision Technologies on 02/08/18.
-//  Copyright © 2018 Megavision Technologies. All rights reserved.
+//  Created by Priyanka on 28/01/19.
+//  Copyright © 2019 Priyanka. All rights reserved.
 //
 
 import UIKit
@@ -29,9 +29,7 @@ class InsertViewController: UIViewController {
         let isInserted=DBModel.getInstance().InsertData(TableInfo)
         if isInserted{
              print("DATA INSERTED")
-          
-       //     ToastView.shared.long(self.view, txt_msg: "Data inserted successfully!!")
-          
+                    
             let MainStoryboard:UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
             let DV = MainStoryboard.instantiateViewController(withIdentifier: "ViewController") as! ViewController
             self.navigationController?.pushViewController(DV, animated: true)

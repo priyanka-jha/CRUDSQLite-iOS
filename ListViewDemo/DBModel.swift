@@ -2,8 +2,8 @@
 //  DBModel.swift
 //  ListViewDemo
 //
-//  Created by Megavision Technologies on 02/08/18.
-//  Copyright © 2018 Megavision Technologies. All rights reserved.
+//  Created by Priyanka on 28/01/19.
+//  Copyright © 2019 Priyanka. All rights reserved.
 //
 
 import Foundation
@@ -40,6 +40,8 @@ class DBModel: NSObject {
     }
     
     
+    //Fetch Data
+    
     func GetAllData() -> NSMutableArray {
         sharedInstance.database!.open()
         
@@ -71,7 +73,7 @@ class DBModel: NSObject {
         
     }
     
-    
+    //Update Data
     func updateData(RecordId:Int,Name:String,Mobile:String,Email:String) -> NSMutableArray {
         sharedInstance.database!.open()
         
@@ -104,7 +106,7 @@ class DBModel: NSObject {
     
     }
     
-    
+    //Delete Data
     func deleteData(RecordId:Int) -> NSMutableArray {
         sharedInstance.database!.open()
         

@@ -19,7 +19,6 @@
 		5F38DADA2112DEDD000B461B /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F38DAD12112DEDD000B461B /* FMDatabasePool.m */; };
 		5F38DADB2112DEDD000B461B /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F38DAD32112DEDD000B461B /* FMDatabaseQueue.m */; };
 		5F38DADC2112DEDD000B461B /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F38DAD62112DEDD000B461B /* FMResultSet.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		5F38DADD2112DEDD000B461B /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5F38DAD72112DEDD000B461B /* Info.plist */; };
 		5F38DAE12112DF88000B461B /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F38DAE02112DF88000B461B /* AVKit.framework */; };
 		5F38DAE32112DF92000B461B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F38DAE22112DF92000B461B /* AVFoundation.framework */; };
 		5F38DAE52112DF98000B461B /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F38DAE42112DF98000B461B /* libsqlite3.0.tbd */; };
@@ -29,7 +28,6 @@
 		5F38DAEF2112F58E000B461B /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F38DAEE2112F58E000B461B /* Util.swift */; };
 		5F38DAF121131656000B461B /* InsertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F38DAF021131656000B461B /* InsertViewController.swift */; };
 		5F38DAF321132486000B461B /* InfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F38DAF221132486000B461B /* InfoTableViewCell.swift */; };
-		5F6842DF21143423001C7200 /* ToastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6842DE21143423001C7200 /* ToastView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,7 +83,6 @@
 		5F38DAEE2112F58E000B461B /* Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
 		5F38DAF021131656000B461B /* InsertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertViewController.swift; sourceTree = "<group>"; };
 		5F38DAF221132486000B461B /* InfoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoTableViewCell.swift; sourceTree = "<group>"; };
-		5F6842DE21143423001C7200 /* ToastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,7 +151,6 @@
 				5F38DAEE2112F58E000B461B /* Util.swift */,
 				5F38DAF021131656000B461B /* InsertViewController.swift */,
 				5F38DAF221132486000B461B /* InfoTableViewCell.swift */,
-				5F6842DE21143423001C7200 /* ToastView.swift */,
 			);
 			path = ListViewDemo;
 			sourceTree = "<group>";
@@ -310,7 +306,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F38DADD2112DEDD000B461B /* Info.plist in Resources */,
 				5F38DAA82112DE74000B461B /* LaunchScreen.storyboard in Resources */,
 				5F38DAA52112DE74000B461B /* Assets.xcassets in Resources */,
 				5F38DAA32112DE71000B461B /* Main.storyboard in Resources */,
@@ -346,7 +341,6 @@
 				5F38DADA2112DEDD000B461B /* FMDatabasePool.m in Sources */,
 				5F38DA9E2112DE71000B461B /* AppDelegate.swift in Sources */,
 				5F38DAEF2112F58E000B461B /* Util.swift in Sources */,
-				5F6842DF21143423001C7200 /* ToastView.swift in Sources */,
 				5F38DAD92112DEDD000B461B /* FMDatabaseAdditions.m in Sources */,
 				5F38DADB2112DEDD000B461B /* FMDatabaseQueue.m in Sources */,
 				5F38DAF121131656000B461B /* InsertViewController.swift in Sources */,
